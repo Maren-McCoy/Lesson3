@@ -3,19 +3,41 @@
 -------------------------*/
 
 body {
-    color: #343434
+    color: #343434;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Alegreya Sans';font-size: 18px;
+    }
 }
 
 img {  
     width:300px;
 }
 
+h2{
+    margin: 0;
+}
+
+.content-wrap {
+    width: 700px;
+    margin: 0 auto;
+    padding: 60px 0;
+
+
+}
+
+
+.herobanner {
+	
+    height: auto;
+	width: inherit;
+}
 
 
 /*  Profile
 -------------------------*/
 header { 
-    background: #2F3061;
+    background: #FF847C;
     color: #F7FFF7;
 }
 
@@ -24,18 +46,25 @@ header {
 -------------------------*/
 .projects {
     background: #F7FFF7;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #E84A5F;
+    
 }
+
 
 .projects .btn { 
     color: #F7FFF7;
-    background: #2F3061;
+    background: rgb(241, 170, 153);
     text-decoration: none;
     padding: 8px;
     border-radius: 4px;
+    display: inline-block;
 }
 
 .projects .btn:hover {
-    background: rgba(47,48,97,80%);
+    background: rgb(232,74,95,80%);
+    
 }
 
 
@@ -48,19 +77,23 @@ header {
 
 /*  Education
 -------------------------*/
-
-
+.education {
+    background: #FECEAB ;
+    
+}
 
 
 /*  Contact Info
 -------------------------*/
 footer {
-    background: #343434;
+    background: #2A363B;
     color: #F7FFF7;
+    
+
 }
 
 a {
-    color: #FFE66D;
+    color: #E84A5F;
 }
 
 a:hover {
