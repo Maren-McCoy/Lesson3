@@ -1,21 +1,38 @@
 @charset "utf-8";
 /*  Global Styles
 -------------------------*/
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
 
 body {
-    color: #343434;
+    color:#2A363B;
     margin: 0px;
     padding: 0px;
-    font-family: 'Alegreya Sans';font-size: 18px;
-    }
+    font-family: 'Alegreya Sans';
+    font-size: 18px;
+    line-height: 1.6;
+    
 }
 
 img {  
     width:300px;
 }
 
-h2{
+h1 {
+    font-size: 75px;
+    margin: 5px;
+    color: rgba(255, 32, 88, 0.7);
+    text-shadow: 7px 7px 0 rgb(131, 189, 126);
+    
+}
+h2 {
     margin: 0;
+    font-size: 30px;
 }
 
 .content-wrap {
@@ -37,7 +54,7 @@ h2{
 /*  Profile
 -------------------------*/
 header { 
-    background: #FF847C;
+    background: #2A363B;
     color: #F7FFF7;
 }
 
@@ -45,6 +62,7 @@ header {
 /*  Projects
 -------------------------*/
 .projects {
+    color:#2A363B;
     background: #F7FFF7;
     border-style: solid;
     border-width: 5px;
@@ -67,6 +85,22 @@ header {
     
 }
 
+.project-item {
+    overflow: hidden;
+    border-bottom: 1px dashed;
+    padding: 25px 0;
+}
+
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+
+.project-item h3 {
+    margin-top: 0;
+}
+
+
 
 /*  Work Experience
 -------------------------*/
@@ -79,6 +113,7 @@ header {
 -------------------------*/
 .education {
     background: #FECEAB ;
+    color:#2A363B;
     
 }
 
