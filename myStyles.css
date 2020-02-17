@@ -90,6 +90,20 @@ header {
     border-bottom: 1px dashed;
     padding: 25px 0;
 }
+<<<<<<< HEAD
+=======
+
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+
+.project-item h3 {
+    margin-top: 0;
+}
+
+
+>>>>>>> 7835f6d6dee031986cc4862398123a7bc0a81fe1
 
 .project-item img {
     float: left;
@@ -107,8 +121,13 @@ header {
 /*  Education
 -------------------------*/
 .education {
+<<<<<<< HEAD
 color:#2A363B;
 background-color: #FECEAB;
+=======
+    background: #FECEAB ;
+    color:#2A363B;
+>>>>>>> 7835f6d6dee031986cc4862398123a7bc0a81fe1
     
 }
 
